@@ -5,7 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
+<<<<<<< HEAD
     <artifactId>Fibonachi_unit</artifactId>
+=======
+    <artifactId>Fibonacci</artifactId>
+>>>>>>> 2ac7831d0da0b5b937621b0c06ab8d206f64cd95
     <version>1.0-SNAPSHOT</version>
 
     <properties>
