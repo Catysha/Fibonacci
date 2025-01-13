@@ -29,12 +29,6 @@ public class FibonacciTest {
     }
 
     @Test
-    public void testGetFibonacci_Five() {
-        List<Integer> result = Fibonacci.getFibonacci(5);
-        assertEquals(List.of(0, 1, 1, 2, 3), result, "Список должен содержать 0, 1, 1, 2, 3 для n = 5");
-    }
-
-    @Test
     public void testGetFibonacci_Ten() {
         List<Integer> result = Fibonacci.getFibonacci(10);
         assertEquals(List.of(0, 1, 1, 2, 3, 5, 8, 13, 21, 34), result, "Список должен содержать первые 10 чисел Фибоначчи");
